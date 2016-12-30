@@ -1,5 +1,8 @@
-### UE4 Smarter Macro Indenting
-This extension was designed to fix the unnecessary and annoying "smart" indenting that Visual Studio likes to do around various UE4 macros. It attempts to fix these indents when your current line proceeds any of the following UE4 macros:
+### UE4 자동 매크로 들여쓰기
+
+이 확장팩은 UE4 에서 사용하는 다양한 매크로들에 대해서 짜증나는 자동 들여쓰기 들여쓰기를 고치기 위해 고안 되었습니다.
+다음과 같은 UE4 매크로들을 사용할 때 자동 들여쓰기 동작이 고쳐지도록 시도하였습니다.
+
 * UPROPERTY
 * UFUNCTION
 * GENERATED_BODY
@@ -15,10 +18,10 @@ This extension was designed to fix the unnecessary and annoying "smart" indentin
 
 ### Installation
 
-1. Download and install the Visual Commander extension for Visual Studio from here: https://vlasovstudio.com/visual-commander/
-2. Go to VCmd -> Import and import ue4_smarter_macro_indenting.vcmd
-3. Go to VCmd -> Extensions to open the Extensions panel
-4. Check the "Enabled" checkbox for the "UE4 Fix Indent" extension.
-5. Make sure Indenting is set to "Smart" in Tools -> Options -> Text Editor -> C/C++ -> Tabs.
+1. Visual Commander extenstion 다운로드 및 설치 https://vlasovstudio.com/visual-commander/
+2. VCmd 를 열고  ue4_smarter_macro_indenting.vcmd 파일을 import
+3. VCmd-> Extensions 패널
+4.  "UE4 Fix Indent" 체크박스에 "Enabled" 체크
+5. 도구 - 옵션 - 텍스트 편집기 - C/C++ 탭 확인
 
-> If "VCmd" doesn't appear on your Visual Studio toolbar after installing Visual Commander, you may need to restart Visual Studio.
+> 만약 VCmd가 비쥬얼 스튜디오에 표지되지 않으면, 비쥬얼 스튜디오 재시작.
